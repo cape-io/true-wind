@@ -76,5 +76,3 @@ module.exports = (obj) ->
     twsr: math.round tspeed, 2
     tws: math.round (tspeed * speed), 2
   }
-
-console.log(module.exports {speed: 6.5, heading: 20, awd: 50, aws: 15})
