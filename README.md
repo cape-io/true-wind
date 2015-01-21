@@ -10,8 +10,8 @@ The first argument is an options object.
 * `speed` - Vessel Speed
 * `heading` - Vessel True Heading
 * `awd` - Apparent Wind Direction (0-360) (relative to true north)
-* `awa` - Apparent Wind Angle (0-360) (relative to bow) ** Overrides `awd` and `heading` options. **
-* `aws` - Apparent Wind Speed (relative to the boat). Units must match `speed` option.
+* `awa` - Apparent Wind Angle (0-360) (relative to bow) **Overrides `awd` and `heading` options.**
+* `aws` - Apparent Wind Speed (relative to the boat). _Units must match `speed` option._
 
 
 ```javascript
