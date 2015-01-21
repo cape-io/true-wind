@@ -1,0 +1,27 @@
+{
+  "name": "true-wind",
+  "version": "0.0.1",
+  "description": "True Wind Calculator",
+  "main": "true-wind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -o ./ -c true-wind.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cape-io/true-wind.git"
+  },
+  "keywords": [
+    "wind",
+    "calculator"
+  ],
+  "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cape-io/true-wind/issues"
+  },
+  "homepage": "https://github.com/cape-io/true-wind",
+  "dependencies": {
+    "mathjs": "1.x"
+  }
+}
