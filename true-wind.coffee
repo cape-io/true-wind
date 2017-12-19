@@ -1,4 +1,4 @@
-math = require 'mathjs'
+_ = require 'lodash'
 
 # degrees to radians
 deg2rad = (degrees) ->
@@ -65,14 +65,14 @@ module.exports = (obj) ->
   tspeed = Math.sin(awa) / Math.sin(alpha)
 
   if heading
-    twd = math.round tdiff+heading, 2
+    twd = _.round tdiff+heading, 2
     if twd > 360 then twd -= 360
 
   return {
-    tanAlpha: math.round tanAlpha, 5
-    alpha: math.round alpha, 5
-    twa: math.round tdiff, 2
+    tanAlpha: _.round tanAlpha, 5
+    alpha: _.round alpha, 5
+    twa: _.round tdiff, 2
     twd: twd
-    twsr: math.round tspeed, 2
-    tws: math.round (tspeed * speed), 2
+    twsr: _.round tspeed, 2
+    tws: _.round (tspeed * speed), 2
   }

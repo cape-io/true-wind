@@ -21,7 +21,8 @@
     "url": "https://github.com/cape-io/true-wind/issues"
   },
   "homepage": "https://github.com/cape-io/true-wind",
-  "dependencies": {
-    "mathjs": "1.x"
+  "dependencies": {},
+  "devDependencies": {
+    "coffee": "^4.1.0"
   }
 }
